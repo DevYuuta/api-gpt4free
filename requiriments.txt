@@ -1,3 +1,0 @@
-gpt4free
-flask
-g4f
