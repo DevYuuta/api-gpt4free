@@ -22,7 +22,7 @@ def generate():
 
     try:
         # Simulação de uma resposta
-        response_text = f"Você perguntou: {prompt}. Esta é uma resposta simulada."
+        response_text = f"Você perguntou: {prompt}. Esta é uma resposta simuladae ta funfando."
         return jsonify({"response": response_text})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
