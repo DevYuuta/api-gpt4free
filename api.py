@@ -7,6 +7,10 @@ app = Flask(__name__)
 def index():
     return "API GPT-4 Free está funcionando! Use o endpoint /generate para gerar respostas."
 
+@app.route('/favicon.ico')
+def favicon():
+    return '', 204  # Retorna uma resposta vazia com status 204 (No Content)
+
 # Rota para gerar respostas
 @app.route('/generate', methods=['POST'])
 def generate():
