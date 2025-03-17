@@ -25,4 +25,5 @@ cryptography
 nodriver
 python-multipart
 pypdf2
+flask-cors
 python-docx
